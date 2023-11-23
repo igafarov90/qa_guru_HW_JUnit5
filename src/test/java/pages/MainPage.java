@@ -13,8 +13,8 @@ public class MainPage {
 
     private final SelenideElement searchIcon = $("[aria-label=\"search\"]");
     private final SelenideElement mainMenu = $(".nav--menu");
-    public final ElementsCollection widgets = $$("h4");
-    public final ElementsCollection listFooterMenu = $$("ul");
+    private final ElementsCollection widgets = $$("h4");
+    private final ElementsCollection listFooterMenu = $$("ul");
 
 
     public MainPage openPage() {
