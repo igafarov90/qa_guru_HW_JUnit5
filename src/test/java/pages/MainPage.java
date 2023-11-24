@@ -1,6 +1,5 @@
 package pages;
 
-import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
 
 import java.util.List;
@@ -13,9 +12,6 @@ public class MainPage {
 
     private final SelenideElement searchIcon = $("[aria-label=\"search\"]");
     private final SelenideElement mainMenu = $(".nav--menu");
-    private final ElementsCollection widgets = $$("h4");
-    private final ElementsCollection listFooterMenu = $$("ul");
-
 
     public MainPage openPage() {
         open("");
