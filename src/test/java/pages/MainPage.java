@@ -18,7 +18,7 @@ public class MainPage {
 
 
     public MainPage openPage() {
-        open("https://www.baeldung.com/");
+        open("");
 
         return this;
     }
